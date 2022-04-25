@@ -1,0 +1,115 @@
+.containerial{
+    width: 100%;
+    margin: 50 auto 0;
+    padding: 20px;
+}
+.main{
+    position: relative;
+    list-style: none;
+    margin: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.main::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(22, 232, 92, 0.5);
+    border-radius: 1000px;
+}
+.main::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 20px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.HTML::after{
+    animation-name: HTML;
+}
+@keyframes HTML {
+    to{
+        width: 100%;
+    }
+}
+.CSS::after{
+    animation-name: CSS;
+}
+@keyframes CSS {
+    to{
+        width: 100%;
+    }
+}
+.HBootStrapTML::after{
+    animation-name: HBootStrapTML;
+}
+@keyframes HBootStrapTML {
+    to{
+        width: 100%;
+    }
+}
+.JavaScript::after{
+    animation-name: JavaScript;
+}
+@keyframes JavaScript {
+    to{
+        width: 80%;
+    }
+}
+.React::after{
+    animation-name: React;
+}
+@keyframes React {
+    to{
+        width: 95%;
+    }
+}
+.Firebase::after{
+    animation-name: Firebase;
+}
+@keyframes Firebase {
+    to{
+        width: 70%;
+    }
+}
+.Node::after{
+    animation-name: Node;
+}
+@keyframes Node {
+    to{
+        width: 60%;
+    }
+}
+.MongoDB::after{
+    animation-name: Firebase;
+}
+@keyframes MongoDB {
+    to{
+        width: 67%;
+    }
+}
+.Metarial::after{
+    animation-name: Metarial;
+}
+@keyframes Metarial {
+    to{
+        width: 90%;
+    }
+}
+.Express::after{
+    animation-name: Express;
+}
+@keyframes Express {
+    to{
+        width: 40%;
+    }
+}
